@@ -35,10 +35,10 @@ cacheSolve<-function(x,...){
   m
 }
 
-## to test if the program works, run the following lines
-## when cacheSolve funciton is called the second time, 
+## To test if the program works, run the following lines.
+## When cacheSolve funciton is called the second time, 
 ## the message "getting cached data" should be displayed 
-## before the output is printed
+## before the output is printed.
 mymatrix<-makeCacheMatrix(matrix(1:4,2,2))
 cacheSolve(mymatrix)
 cacheSolve(mymatrix)
